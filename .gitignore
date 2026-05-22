@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.env*.local
+.DS_Store
+*.log
+.vercel
+*.tsbuildinfo
+
+public/B-A_1.mp4
