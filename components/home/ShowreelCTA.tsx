@@ -99,9 +99,6 @@ export function ShowreelCTA() {
           <Link href="/pitch" className="cta-primary" data-cursor="cta">
             Pitcher votre projet <ArrowRight size={14} strokeWidth={2.5} />
           </Link>
-          <Link href="/contact" className="cta-secondary" data-cursor="cta">
-            Collaborer avec nous <ArrowRight size={14} strokeWidth={2} />
-          </Link>
         </motion.div>
 
         <p

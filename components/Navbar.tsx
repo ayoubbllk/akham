@@ -97,14 +97,6 @@ export function Navbar() {
           </ul>
 
           <div className="flex items-center gap-4">
-            <Link
-              href="/pitch"
-              data-cursor="cta"
-              className="hidden lg:inline-flex cta-primary"
-              aria-label="Pitcher un projet"
-            >
-              Collaborer <ArrowUpRight size={14} />
-            </Link>
             <button
               type="button"
               aria-label={open ? 'Fermer le menu' : 'Ouvrir le menu'}
