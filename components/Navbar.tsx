@@ -100,7 +100,7 @@ export function Navbar() {
             <Link
               href="/pitch"
               data-cursor="cta"
-              className="hidden md:inline-flex cta-primary"
+              className="hidden lg:inline-flex cta-primary"
               aria-label="Pitcher un projet"
             >
               Collaborer <ArrowUpRight size={14} />
@@ -164,16 +164,6 @@ export function Navbar() {
                   </span>
                 </motion.li>
               ))}
-              <motion.li
-                initial={{ x: -30, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ delay: 0.4, duration: 0.35 }}
-                className="mt-10"
-              >
-                <Link href="/pitch" onClick={() => setOpen(false)} className="cta-primary">
-                  Collaborer <ArrowUpRight size={14} />
-                </Link>
-              </motion.li>
             </ul>
           </motion.div>
         )}
